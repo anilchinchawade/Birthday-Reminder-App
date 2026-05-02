@@ -1,7 +1,7 @@
 const cron = require('node-cron');
 const fs = require('fs');
 
-cron.schedule('0 9 * * *', () => {
+cron.schedule('30 3 * * *', () => {
     console.log("Checking birthdays...");
     checkBirthdays();
 });
